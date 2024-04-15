@@ -19,6 +19,7 @@ Därefter las till tre olika widgets, där EditText,ImageView och button las til
 Detta gjordes för att få fram mer utrymme mellan dem.
 
 EditText:
+```
 <EditText
 android:id="@+id/editText"
 android:layout_width="0dp"
@@ -26,22 +27,23 @@ android:layout_height="wrap_content"
 android:hint="Ändra text!"
 android:layout_margin="10dp"
 android:layout_weight="1"/>
+```
 
 ImageView:
+````
 <ImageView
-android:id="@+id/imageView"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
+....
 android:src="@mipmap/ic_launcher"
 android:layout_margin="8dp" />
+````
 
 Button:
+```
 <Button
-android:id="@+id/button"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
+...
 android:text="START!"
 android:layout_margin="12dp" />
+```
 
 I slutet så ändrades widgets ordning och detta gjordes med hjälp av layout_weight på editText som gjorde att utrymmet balanserades bättre. 
 
