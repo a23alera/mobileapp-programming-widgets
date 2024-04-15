@@ -47,4 +47,4 @@ android:layout_margin="12dp" />
 
 I slutet så ändrades widgets ordning och detta gjordes med hjälp av layout_weight på editText som gjorde att utrymmet balanserades bättre. 
 
-![![![img_1.png](img_1.png)](android.png)
+![img_1.png](img_1.png)
